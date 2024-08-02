@@ -1,0 +1,71 @@
+/* NAVBAR */
+
+.navbar-contents{
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    background-color: rgba(172, 137, 104, 0.9);
+}
+.nav-logo, .footer-logo{
+    text-align: center;
+    line-height: 0;
+}
+.nav-logo:hover, .footer-logo:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.nav-logo h1, .footer-logo h1{
+    font-family: "Ole", cursive;
+    font-weight: bold;
+    color: #3e362e;
+}
+.nav-logo p, .footer-logo p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #3e362e;
+}
+.navbar-nav li:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:992px) {
+    .navbar-form button{
+        display: none;
+    }
+    .form-control   {
+        display: none;
+    }
+    .nav-item:hover{
+        border-bottom: 2px solid #3e362e;
+    }
+}
+
+.banner{
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/banner-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {
+        background-image: url(./images/banner-bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    50%  {
+        background-image: url(./images/banner-bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    100% {
+        background-image: url(./images/banner-bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+  }
