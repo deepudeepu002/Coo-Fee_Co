@@ -146,4 +146,29 @@
     }
 }
 
-/* about-us-start */
+/* about-us-end */
+
+/* product-start */
+
+.product{
+    background-color:  rgba(172, 137, 104, 0.5);
+    height: 85vh;
+}
+.product-owl{
+    width: 100%;
+}
+.product-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img-top{
+    border-radius: 50%;
+}
+
+/* product-end */
