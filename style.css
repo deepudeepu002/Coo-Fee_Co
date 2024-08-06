@@ -57,7 +57,7 @@
 
 @keyframes example {
     0%   {
-        background-image: url(./images/banner-bg.jpeg);
+        background-image: url(./images/banner-bg-1.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -67,7 +67,7 @@
         background-size: 100% 100%;
     }
     100% {
-        background-image: url(./images/banner-bg.jpeg);
+        background-image: url(./images/banner-bg-1.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -177,7 +177,8 @@
 /* service-start */
 
 .services{
-    height: 70vh;
+    height: 80vh;
+    overflow: auto;
 }
 .service-card{
     width: 250px !important;
@@ -258,5 +259,5 @@ li{
         text-align: start;
     }
  }
- 
+
 /* footer-end */
